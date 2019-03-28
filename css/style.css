@@ -1,0 +1,793 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+    background-image: url(../images/bg.jpg);
+    background-color: #c7b39b;
+    background-repeat: no-repeat; 
+	position: relative;
+ 	overflow-x: hidden;
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+/*  */
+.modal-portraits-img {
+    float:left;
+    margin: 7px 7px 7px 0;
+    width: 300px;
+	height: 400px; 
+}
+/* НАЧАЛО ФРАГМЕНТОВ */
+/* 1 ФРАГМЕНТ */
+    /* верхний ряд */
+    /* Ломоносов Михаил Васильевич */
+    .img-lomonosov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 0px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Ермак Тимофеевич */
+    .img-Ermak {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 64px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Баранов, Александр Андреевич */
+    .img-Baranov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 125px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Орловский, Борис Иванович */
+    .img-Orlovskiy {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 190px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Кутузов, Михаил Илларионович */
+    .img-Kutuzov {
+        background-color: #c7b39b; 
+        position: absolute; 
+        top: 217px; 
+        left: 256px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Ушаков, Фёдор Фёдорович */
+    .img-Ushakov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* нижний ряд */
+    /* Платов */
+    .img-Platov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Пушкин Александр Сергеевич */
+    .img-Pushkin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Лермонтов, Михаил Юрьевич */
+    .img-Lermantov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Кошка, Пётр Маркович */
+    .img-Koshka {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Муравьёв-Карский, Николай Николаевич */
+    .img-Muravev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* сидит */
+    /* Давыдов, Денис Васильевич */
+    .img-Davidov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+/* 2 ФРАГМЕНТ */
+    /* верхний ряд */
+    /* Суворов, Александр Васильевич */
+    .img-Suvorov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Нахимов, Павел Степанович */
+    .img-Nakhimov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Толстой, Алексей Константинович */
+    .img-TolstoiAK {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Пржевальский, Николай Михайлович */
+    .img-Prjevalski {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Пирогов, Николай Иванович */
+    .img-Pirogov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Тютчев, Фёдор Иванович */
+    .img-Pirogov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* нижний ряд */
+    /* Даша Севастопольская */
+    .img-Sevastopolskaya {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Гоголь Николай Васильевич */
+    .img-Gogol {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Толстой, Лев Николаевич */
+    .img-TolstoiLN {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Фет, Афанасий Афанасьевич */
+    .img-Fet {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Тургенев, Иван Сергеевич */
+    .img-Turgenev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* сидят */
+    /* Сеславин, Александр Никитич */
+    .img-Seslavin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Кульнев, Яков Петрович */
+    .img-Kulnev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+/* 3 ФРАГМЕНТ */
+    /* Блок людей */
+    /* Лесков, Николай Семёнович */
+    .img-Leskov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Достоевский, Фёдор Михайлович */
+    .img-Dostoevski {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Иоанн Кронштадтский */
+    .img-Kronshtadtski {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Гермоген (патриарх Московский) */
+    .img-Germogen {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Родионов, Евгений Александрович */
+    .img-Rodionov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Иоанн (Снычёв) */
+    .img-Ioann {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Илий (Ноздрин) */
+    .img-Ilii {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Булгаков, Сергей Николаевич */
+    .img-Bulgakov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Образы-символы */
+    /* Мать */
+    .img-Mather {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Дедушка */
+    .img-Grandfather {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Мальчик */
+    .img-Boy {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+/* 4 ФРАГМЕНТ */
+    /* верхний ряд */
+    /* Шаляпин, Фёдор Иванович */
+    .img-Shalyapin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Вяльцева, Анастасия Дмитриевна */
+    .img-Valiceva {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Тальков, Игорь Владимирович */
+    .img-Talkov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Бурляев, Николай Петрович */
+    .img-Byrlyaev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Белов, Василий Иванович */
+    .img-Belov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Ганичев, Валерий Николаевич */
+    .img-Ganichev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Захарченко, Виктор Гаврилович */
+    .img-Zaharchenko {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* средний ряд */
+    /* Чехов Антон Павлович */
+    .img-Chehov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Суриков, Василий Ивано*/
+    .img-Surikov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Есенин Сергей Александрович */
+    .img-Esenin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Распутин, Валентин Григорье*/
+    .img-Rasputin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Михайлов, Александр Яковле*/
+    .img-Mihaylov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Клыков, Вячеслав Михайлович */
+    .img-Klykov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Михалков, Никита Сергее*/
+    .img-Mihalkov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* нижний ряд */
+    /* Столыпин, Пётр Аркадьевич */
+    .img-Stolypin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Скобелев, Михаил Дмитриевич */
+    .img-Skobelev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Бунин, Иван Алексеевич */
+    .img-Bunin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Шолохов, Михаил Александрович */
+    .img-Sholokhov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Бондарчук, Сергей Фёдорович */
+    .img-Bondarchuk {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Поликарпов, Николай Николаевич */
+    .img-Polikarpov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Чечнева, Марина Павловна */
+    .img-Chechneva {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Хренников, Тихон Николаевич */
+    .img-Khrennikov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Кожедуб, Иван Никитович */
+    .img-Kozhedub {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* сидят */
+    /* Андреев, Леонид Николаевич */
+    .img-Andreev {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Тюленин, Сергей Гаврилович */
+    .img-Tulenin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+/* 5 ФРАГМЕНТ */
+    /* верхний ряд */
+    /* Рубцов, Николай Михайлович */
+    .img-Rubcov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Свиридов, Георгий Васильевич */
+    .img-Sviridov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Вернадский, Владимир Иванович */
+    .img-Vernadsky {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Гагарин, Юрий Алексеевич */
+    .img-Gagarin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Курчатов, Игорь Васильевич */
+    .img-Kurchatov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* средний ряд */
+    /* Глазунов, Илья Сергеевич */
+    .img-Glazunov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Королёв, Сергей Павлович */
+    .img-Korolow {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Келдыш, Мстислав Всеволодович */
+    .img-Keldish {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Шойгу, Сергей Кужугетович */
+    .img-Shoigu {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* нижний ряд */
+    /* Рокоссовский, Константин Константинович */
+    .img-Rokossowski {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Кузнецов, Николай Герасимович */
+    .img-Kuznetsov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Жуков, Георгий Константинович */
+    .img-Zhukov {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* Зыкина, Людмила Георгиевна */
+    .img-Zikina {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+    /* сидит */
+    /* Шукшин, Василий Макарович */
+    .img-Shukshin {
+        background-color: #c7b39b;
+        position: absolute; 
+        top: 217px; 
+        left: 332px;
+        padding:0px;
+        background: #ffffff; 
+        border: 0px;
+    }
+/* КОНЕЦ ФРАГМЕНТОВ */
