@@ -2,6 +2,8 @@ html {
 	scroll-behavior: smooth;
 }
 body {
+    width: 1920px;
+    height: 1080px;
     background-image: url(../images/bg.jpg);
     background-color: #c7b39b;
     background-repeat: no-repeat; 
@@ -19,129 +21,110 @@ body {
 	height: 400px; 
 }
 /* НАЧАЛО ФРАГМЕНТОВ */
+    body a div  {
+        z-index: 2;
+        position: absolute; 
+        padding:0px;
+        border: 0px;
+        display: inline-block;
+        opacity: 0.0; /* Полупрозрачный фон */
+        filter: alpha(Opacity=0); /* Прозрачность в IE */
+    }
 /* 1 ФРАГМЕНТ */
     /* верхний ряд */
     /* Ломоносов Михаил Васильевич */
     .img-lomonosov {
-        background-color: #c7b39b;
-        position: absolute; 
         top: 217px; 
         left: 0px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 64px;
+        height: 67px;
     }
     /* Ермак Тимофеевич */
     .img-Ermak {
-        background-color: #c7b39b;
-        position: absolute; 
         top: 217px; 
         left: 64px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 61px;
+        height: 96px;
     }
     /* Баранов, Александр Андреевич */
     .img-Baranov {
-        background-color: #c7b39b;
-        position: absolute; 
         top: 217px; 
         left: 125px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 65px;
+        height: 92px;
     }
     /* Орловский, Борис Иванович */
     .img-Orlovskiy {
-        background-color: #c7b39b;
-        position: absolute; 
         top: 217px; 
         left: 190px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 66px;
+        height: 96px;
     }
     /* Кутузов, Михаил Илларионович */
     .img-Kutuzov {
-        background-color: #c7b39b; 
-        position: absolute; 
         top: 217px; 
         left: 256px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 76px;
+        height: 110px;
     }
     /* Ушаков, Фёдор Фёдорович */
     .img-Ushakov {
-        background-color: #c7b39b;
-        position: absolute; 
         top: 217px; 
         left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        width: 62px;
+        height: 96px;
     }
     /* нижний ряд */
     /* Платов */
     .img-Platov {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 379px; 
+        left: 18px;
+        width: 59px;
+        height: 77px;
     }
     /* Пушкин Александр Сергеевич */
     .img-Pushkin {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 358px;
+        left: 76px; 
+        width: 66px;
+        height: 85px;
+    }
+    /* Ермолов, Алексей Петрович */
+    .img-Ermolov {
+        top: 373px;
+        left: 144px;
+        width: 59px;
+        height: 89px;
     }
     /* Лермонтов, Михаил Юрьевич */
     .img-Lermantov {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 399px;
+        left: 228px;
+        width: 53px;
+        height: 74px;
     }
     /* Кошка, Пётр Маркович */
     .img-Koshka {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 366px; 
+        left: 253px;
+        width: 55px;
+        height: 76px;
+        z-index: 1;
     }
     /* Муравьёв-Карский, Николай Николаевич */
     .img-Muravev {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 404px;
+        left: 313px;
+        width: 63px;
+        height: 77px;
     }
     /* сидит */
     /* Давыдов, Денис Васильевич */
     .img-Davidov {
-        background-color: #c7b39b;
-        position: absolute; 
-        top: 217px; 
-        left: 332px;
-        padding:0px;
-        background: #ffffff; 
-        border: 0px;
+        top: 525px; 
+        left: 260px;
+        width: 60px;
+        height: 72px;
     }
 /* 2 ФРАГМЕНТ */
     /* верхний ряд */
