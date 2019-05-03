@@ -1,6 +1,10 @@
 <?php
+error_reporting(E_ALL);
+
 	$en = array(
-		'pageTitle' => "Popular Russian people",
+		'titlePage' => "Popular Russian people",
+		'descript' => "Description",
+		'keys' => "site, keyword, keywords",
 		'aboutSite' => "About this site",
 		'close' => 'Close',
 		'modalLabelLomonosov' => "Mikhail Lomonosov",

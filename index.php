@@ -1,44 +1,24 @@
-<html>
-	<head>
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<?php
+	error_reporting(E_ALL);
+	// Определяем язык -->
+	$isLang = isset($_GET["lang"])? $_GET["lang"]: "en"; //Берём значение GET-параметра, либо, если его нет, то устанавливаем русский
 
-		<title> </title>
+	include_once("langs/".$isLang.".php");
 
-		<meta charset="UTF-8">
-		<!-- jquery -->
-  		<script src="js/jquery-3.2.1.slim.min.js"></script>
-		<!-- popper -->
-  		<script src="js/popper.min.js"></script>
-		<!-- Bootstrap 4 -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-  		<script src="js/bootstrap.min.js"></script>
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-	</head>
+	if ($isLang == "en") {
+  		$LANG = $en;
+ 	} else if ($isLang == "ru") {
+		$LANG = $ru;
+	}
 
-	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-		<!-- Определяем язык -->
-		<?php
-		  $isLang = isset($_GET["lang"])? $_GET["lang"]: "en"; //Берём значение GET-параметра, либо, если его нет, то устанавливаем русский
-		  include_once("langs/".$isLang.".php");
+	$GLOBALS['title'] = $LANG['titlePage'];
+	$GLOBALS['desc'] = $LANG['descript'];
+	$GLOBALS['keywords'] = $LANG['keys'];
 
+	include("header.php");
+?>		
 
-		  if ($isLang == "en") {
-		  	$LANG = $en;
-		  }
-		  else if ($isLang == "ru") {
-		  	$LANG = $ru;
-		  }
-		?>
-		
-		<script type="text/javascript">
-		    $(document).ready(function() {
-		        $(this).attr("title", "<?=$LANG['pageTitle'];?>");
-		    });
-		</script>
-		
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 	<!-- Меню -->
 		<ul class="navbar cf">
 			<li><a href="#"><?php echo $LANG['aboutSite'];?></a></li>
@@ -58,17 +38,17 @@
 			  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 			    	<div class="modal-content">
 			      		<div class="modal-header">
-			        		<h5 class="modal-title" id="modalLabelLomonosov"><? echo $LANG['modalLabelLomonosov']?></h5>
+			        		<h5 class="modal-title" id="modalLabelLomonosov"><?php echo $LANG['modalLabelLomonosov']?></h5>
 			        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			          			<span aria-hidden="true">×</span>
 			        		</button>
 			      		</div>
 			      		<div class="modal-body">
 							<img src="images/portraits/Mikhail_Lomonosov_(1757).jpg" alt="" class="modal-portraits-img">
-			      			<? echo $LANG['modalLomonosov']?>
+			      			<?php echo $LANG['modalLomonosov']?>
 			      		</div>
 			      		<div class="modal-footer">
-			        		<button type="button" class="btn btn-primary" data-dismiss="modal"><? echo $LANG['close']?></button>
+			        		<button type="button" class="btn btn-primary" data-dismiss="modal"><?php echo $LANG['close']?></button>
 			      		</div>
 			    	</div>
 			  	</div>

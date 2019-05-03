@@ -1,6 +1,10 @@
 <?php
+error_reporting(E_ALL);
+
 	$ru = array(
-		'pageTitle' => "Известные люди России",
+		'titlePage' => "Известные люди России",
+		'descript' => "Описание",
+		'keys' => "сайт, люди, известные, россия",
 		'aboutSite' => "Об этом сайте",
 		'close' => "Закрыть",
 		'modalLabelLomonosov' => "Ломоносов, Михаил Васильевич",
