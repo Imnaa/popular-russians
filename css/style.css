@@ -600,3 +600,60 @@ body {
             height: 81px; 
         }
 /* КОНЕЦ ФРАГМЕНТОВ */
+
+/*Menu*/
+    .cf:before,
+    .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    .cf:after {
+        clear: both;
+    }
+    .cf {
+        *zoom: 1;
+    }
+    ul.navbar {
+      background: #fff; /* Old browsers */
+      width: 850px;
+      position: absolute;
+            top: 100px; 
+            left: 526px ;
+    }
+    ul.navbar li {
+        list-style-type: none; /* Убираем маркеры */
+        float: left;
+        margin: 0;
+        position: relative;
+    }
+    ul.navbar li a {
+        display: block;
+        padding: 0px 0px;
+        color: #777 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .2s ease-in-out;
+    }
+    ul.navbar li a:hover,
+    ul.navbar li:hover > a {
+        background: #1c0da5;
+        color: #fff !important;
+    }
+    ul.navbar li ul {
+      margin: 0;
+      position: absolute;
+      background: #222;
+      left: 10%;
+      font-size: 10px;
+      min-width: 170px;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 99;
+      transition: all .1s ease;
+    }
+    ul.navbar ul li { float: none; }
+    ul.navbar li:hover > ul { opacity: 1; visibility: visible; left: 0; max-height: 250px }
+    ul.navbar > li:hover > ul { opacity: 1; visibility: visible; top: 100%; left: 0; }
+    ul.navbar li > ul  ul { top: 0; left: 90%; }
+    ul.navbar li > ul li:hover > ul { left: 100%; }
+/**/
