@@ -26,6 +26,7 @@
 			<li><a href="index.php?lang=ru">Русскоязычная версия сайта</a></li>
 			<li><a href="index.php?lang=en">English version of the site</a></li>
 		</ul>
+	
 	<div class="modal fade" id="modalAboutSite" tabindex="-1" role="dialog" aria-labelledby="modalLabelAboutSite" style="display: none;" aria-hidden="true">
 	  	<div class="modal-dialog modal-dialog-centered" role="document">
 	    	<div class="modal-content">
