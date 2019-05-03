@@ -19,12 +19,33 @@
 ?>		
 
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+
 	<!-- Меню -->
 		<ul class="navbar cf">
-			<li><a href="#"><?php echo $LANG['aboutSite'];?></a></li>
+			<li><a href="#" data-target="#modalAboutSite" data-toggle="modal"><?php echo $LANG['aboutSite'];?></a></li>
 			<li><a href="index.php?lang=ru">Русскоязычная версия сайта</a></li>
 			<li><a href="index.php?lang=en">English version of the site</a></li>
 		</ul>
+	<div class="modal fade" id="modalAboutSite" tabindex="-1" role="dialog" aria-labelledby="modalLabelAboutSite" style="display: none;" aria-hidden="true">
+	  	<div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<h5 class="modal-title" id="modalLabelAboutSite"><?php echo $LANG['modalLabelAboutSite']?></h5>
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          			<span aria-hidden="true">×</span>
+	        		</button>
+	      		</div>
+	      		<div class="modal-body">
+	      			<?php echo $LANG['modalAboutSite']?>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><?php echo $LANG['close']?></button>
+	      		</div>
+	    	</div>
+	  	</div>
+	</div>
 	<!-- Конец Меню -->
 
 <!-- НАЧАЛО ФРАГМЕНТОВ -->
