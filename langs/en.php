@@ -3,12 +3,13 @@ error_reporting(E_ALL);
 
 	$en = array(
 		'titlePage' => "Popular Russian people",
-		'descript' => "Description",
+		'descript' => "Description of site...",
 		'keys' => "site, keyword, keywords",
 		'aboutSite' => "About this site",
 		'modalLabelAboutSite' => "[ENGLISH] О сайте этом...",
 		'modalAboutSite' => "[ENGLISH] Здесь должен быть текст...",
 		'close' => 'Close',
+		
 		// Левое крыло, фрагмент 1
 			// верхний ряд
 				'modalLabelLomonosov' => "Mikhail Lomonosov",
