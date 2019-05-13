@@ -9,7 +9,7 @@ body {
     background-image: url(../images/bg.jpg);
     background-color: #c7b39b;
     background-repeat: no-repeat; 
-	position: relative;
+	/* position: relative; */
  	overflow-x: hidden;
 	margin: 0;
 	font-family: 'Roboto';
@@ -615,10 +615,10 @@ body {
     }
     ul.navbar {
       background: #fff; /* Old browsers */
-      width: 850px;
+      width: 800px;
       position: absolute;
             top: 100px; 
-            left: 526px ;
+            left: 556px ;
     }
     ul.navbar li {
         list-style-type: none; /* Убираем маркеры */

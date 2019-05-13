@@ -3,11 +3,26 @@ error_reporting(E_ALL);
 
 	$ru = array(
 		'titlePage' => "Известные люди России",
+		'btnBack' => "Назад",
 		'descript' => "Описание сайта...",
 		'keys' => "сайт, люди, известные, россия",
-		'aboutSite' => "Об этом сайте",
+		'titlePageContact' => "Связь с нами",
+		'descriptContact' => "Описание сайта связь с нами",
+		'keysContact' => "сайт, люди, известные, россия, связь, связаться",
+		'btnAboutSite' => "О картине",
+		'btnContact' => "Связаться с нами",
 		'modalLabelAboutSite' => "О сайте этом...",
 		'modalAboutSite' => "Здесь должен быть текст...",
+		'modalLabelContact' => "Обратная связь",
+		'feedbackName' => "Ваше имя:",
+		'feedbackEmail' => "E-mail:",
+		'feedbackPhone' => "Номер телефона:",
+		'feedbackMessage' => "Сообщение:",
+		'feedbackSendMessage' => "Отправить сообщение",
+		'feedbackHitName' => "Иванов Иван Иванович",
+		'feedbackHitEmail' => "example@post.ru",
+		'feedbackHitPhone' => "+799912345678",
+		'feedbackHitMessage' => "Введите сообщение...",
 		'close' => "Закрыть",
 
 		// Левое крыло, фрагмент 1

@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 	error_reporting(E_ALL);
 	// Определяем язык -->
-	$isLang = isset($_GET["lang"])? $_GET["lang"]: "en"; //Берём значение GET-параметра, либо, если его нет, то устанавливаем русский
+	$isLang = isset($_GET["lang"])? $_GET["lang"]: "ru"; //Берём значение GET-параметра, либо, если его нет, то устанавливаем русский
 
 	include_once("langs/".$isLang.".php");
 
@@ -23,10 +23,16 @@
 
 <!-- Меню -->
 	<ul class="navbar cf">
-		<li><a href="#" data-target="#modalAboutSite" data-toggle="modal"><?php echo $LANG['aboutSite'];?></a></li>
-		<li><a href="index.php?lang=ru">Русскоязычная версия сайта</a></li>
-		<li><a href="index.php?lang=en">English version of the site</a></li>
+		<li><a href="#" data-target="#modalAboutSite" data-toggle="modal"><img src="./images/info_ico.png"><?php echo $LANG['btnAboutSite'];?></a></li>
+		<?php 
+			if ($isLang == "en") { ?>
+				<li><a href="index.php?lang=ru"><img src="./images/rus_ico.png">Русскоязычная версия</a></li>
+			<?php } else {?>
+			<li><a href="index.php?lang=en"><img src="./images/eng_ico.png">English version</a></li>
+		<?php } ?>
+		<li><a href="#" data-target="#modalContact" data-toggle="modal"><img src="./images/contact_ico.png"><?php echo $LANG['btnContact'];?></a></li>
 	</ul>
+	<!-- Мобальное окно About -->
 	<div class="modal fade" id="modalAboutSite" tabindex="-1" role="dialog" aria-labelledby="modalLabelAboutSite" style="display: none;" aria-hidden="true">
 	  	<div class="modal-dialog modal-dialog-centered" role="document">
 	    	<div class="modal-content">
@@ -38,6 +44,48 @@
 	      		</div>
 	      		<div class="modal-body">
 	      			<?php echo $LANG['modalAboutSite']?>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><?php echo $LANG['close']?></button>
+	      		</div>
+	    	</div>
+	  	</div>
+	</div>
+	<!-- Модальное окно ОБРАТНАЯ СВЯЗЬ -->
+	<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalLabelContact" style="display: none;" aria-hidden="true">
+	  	<div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<h5 class="modal-title" id="modalLabelContact"><?php echo $LANG['modalLabelContact']?></h5>
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          			<span aria-hidden="true">×</span>
+	        		</button>
+	      		</div>
+	      		<div class="modal-body">
+	      			<!-- ТУТ ОБРАТНАЯ СВЯЗЬ -->
+					  <form action="mail.php" method="post">
+					  <fieldset>
+							<div class="form-group">
+							<label for="name"><?php echo $LANG['feedbackName']?></label>
+							<input type="name" name="name" class="form-control" id="name" placeholder="<?php echo $LANG['feedbackHitName']?>">
+							</div>
+							<div class="form-group">
+							<label for="email1"><?php echo $LANG['feedbackEmail']?></label>
+							<input type="email" name="email" class="form-control" id="email1" placeholder="<?php echo $LANG['feedbackHitEmail']?>">
+							</div>
+							<div class="form-group">
+							<label for="phone"><?php echo $LANG['feedbackPhone']?></label>
+							<input type="phone" name="phone" class="form-control" id="phone" placeholder="<?php echo $LANG['feedbackHitPhone']?>">
+							</div>
+							<div class="form-group">
+							<label for="message"><?php echo $LANG['feedbackMessage']?></label>
+							<textarea class="form-control" name="message" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-info"><?php echo $LANG['feedbackSendMessage']?></button>
+					  </fieldset>
+					  </form>
+
+
 	      		</div>
 	      		<div class="modal-footer">
 	        		<button type="button" class="btn btn-primary" data-dismiss="modal"><?php echo $LANG['close']?></button>
@@ -1455,7 +1503,7 @@
 								</button>
 							</div>
 							<div class="modal-body">
-								<img src="images/portraits/Bondarchuk.JPG" alt="" class="modal-portraits-img">
+								<img src="images/portraits/Bondarchuk.jpg" alt="" class="modal-portraits-img">
 								<?php echo $LANG['modalBondarchuk']?>
 							</div>
 							<div class="modal-footer">
@@ -1581,7 +1629,7 @@
 								</button>
 							</div>
 							<div class="modal-body">
-								<img src="images/portraits/Andreev.JPG" alt="" class="modal-portraits-img">
+								<img src="images/portraits/Andreev.jpg" alt="" class="modal-portraits-img">
 								<?php echo $LANG['modalAndreev']?>
 							</div>
 							<div class="modal-footer">
