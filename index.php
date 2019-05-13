@@ -23,14 +23,14 @@
 
 <!-- Меню -->
 	<ul class="navbar cf">
-		<li><a href="#" data-target="#modalAboutSite" data-toggle="modal"><img src="./images/info_ico.png"><?php echo $LANG['btnAboutSite'];?></a></li>
+		<li><a href="#" data-target="#modalAboutSite" data-toggle="modal"><img src="./images/info_ico.png" width="24px" height="24px"> <?php echo $LANG['btnAboutSite'];?></a></li>
 		<?php 
 			if ($isLang == "en") { ?>
-				<li><a href="index.php?lang=ru"><img src="./images/rus_ico.png">Русскоязычная версия</a></li>
+				<li><a href="index.php?lang=ru"><img src="./images/rus_ico.png" width="26px" height="22px"> Русскоязычная версия</a></li>
 			<?php } else {?>
-			<li><a href="index.php?lang=en"><img src="./images/eng_ico.png">English version</a></li>
+			<li><a href="index.php?lang=en"><img src="./images/eng_ico.png" width="30px" height="30px"> English version</a></li>
 		<?php } ?>
-		<li><a href="#" data-target="#modalContact" data-toggle="modal"><img src="./images/contact_ico.png"><?php echo $LANG['btnContact'];?></a></li>
+		<li><a href="#" data-target="#modalContact" data-toggle="modal"><img src="./images/contact_ico.png" width="28px" height="28px"> <?php echo $LANG['btnContact'];?></a></li>
 	</ul>
 	<!-- Мобальное окно About -->
 	<div class="modal fade" id="modalAboutSite" tabindex="-1" role="dialog" aria-labelledby="modalLabelAboutSite" style="display: none;" aria-hidden="true">

@@ -615,10 +615,10 @@ body {
     }
     ul.navbar {
       background: #fff; /* Old browsers */
-      width: 800px;
+      width: 720px;
       position: absolute;
             top: 100px; 
-            left: 556px ;
+            left: 606px ;
     }
     ul.navbar li {
         list-style-type: none; /* Убираем маркеры */

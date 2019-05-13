@@ -1,6 +1,3 @@
-<?php 
-	error_reporting(E_ALL);
-?>
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie7" lang="en"><![endif]-->
 <!--[if IE 8 ]><html class="ie8" lang="en"><![endif]-->
@@ -27,9 +24,9 @@
 			}
 		?>
 
-		<title> <?php $title ?></title>
-		<meta name="description" content="<?php $desc ?>">
-		<meta name="keywords" content="<?php $keywords ?>">";
+		<title><?php echo $title ?></title>
+		<meta name="description" content="<?php echo $desc ?>">
+		<meta name="keywords" content="<?php echo $keywords ?>">
 		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 		<meta charset="UTF-8">
 		<!-- jquery -->
